@@ -1,0 +1,59 @@
+.footer_box {
+  width: 100vw;
+  background-color: #000;
+  padding: 100px 20px;
+}
+
+.container_rodape {
+  height: auto;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_rodape img {
+  width: 100px;
+  height: 100px;
+}
+
+.container_rodape div {
+  width: 20%;
+  height: 100px;
+}
+
+.container_rodape h3,
+.container_rodape p {
+  color: #fff;
+}
+
+.container_rodape h3 {
+  font-size: 18px;
+}
+
+.dev {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.dev p {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container_rodape {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container_rodape div {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+}
